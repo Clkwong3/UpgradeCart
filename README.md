@@ -68,7 +68,133 @@ These tools are the key components required to interact with UpgradeCart effecti
 
 ## Technology Stack
 
-List the technologies, frameworks, and tools used in your project.
+UpgradeCart relies on a comprehensive set of tools to ensure efficient development and seamless functionality across both its server and client components.
+
+### Root Package.json
+
+#### Project Commands/Scripts
+- **start:** Initiates the server using `node server/server.js`, excluding the client.
+- **develop:** Concurrently runs server and client development environments for a streamlined development experience.
+- **install:** Installs server and client dependencies to ensure a smooth integration of required packages.
+- **seed:** Seeds data into the server, populating the database with initial information.
+- **build:** Compiles the client using cd client && npm run build, preparing the application for deployment.
+
+#### Dev Dependencies
+
+- **concurrently:** ^8.2.0
+  - Facilitates the concurrent execution of multiple commands during development, enhancing the development workflow.
+
+### Server Package.json
+
+#### Project Commands/Scripts
+- **start** Initiates the server using `node server.js`, launching the application.
+- **watch:** Operates the server using `nodemon` for automatic restarts during development.
+- **seed:** Seeds data into the server using `node config/seeds.js`, populating the database with initial information.
+
+#### Dependencies
+- **@apollo/server:** ^4.9.5
+    - Implements a GraphQL server for defining schemas and resolving queries. Used for server-side testing.
+
+- **bcrypt:** ^5.0.0
+    - Library for hashing passwords, commonly used for secure password storage.
+
+- **dotenv:** ^16.3.1
+    - Loads environment variables from a .env file into process.env, aiding in configuration management during development.
+
+- **express:** ^4.17.2
+    - Fast and minimalist web framework for Node.js, simplifying building robust web applications.
+
+- **graphql:** ^16.6.0
+    -Query language and runtime for APIs, often used with Apollo Server for GraphQL.
+
+- **jsonwebtoken:** ^9.0.2
+    - Generates and verifies JSON Web Tokens (JWT) for user authentication and authorization.
+
+- **mongoose:** ^7.0.2
+    - Object Data Modeling (ODM) library for MongoDB and Node.js, providing schema-based data modeling.
+
+- **stripe:** ^8.67.0
+    - Library for interacting with the Stripe API, enabling secure payment processing.
+
+#### Dev Dependencies
+- **nodemon:** ^2.0.3
+  - Utility that monitors changes in Node.js applications and automatically restarts the server during development.
+
+### Client Package.json
+
+#### Project Commands/Scripts
+- **dev:** Run Vite for development, initiating the development server for a smooth and fast-paced development experience.
+- **build:** Build the client using Vite, generating a production-ready bundle for deployment.
+- **lint:** Run ESLint for linting, ensuring code quality and adherence to coding standards in the source code.
+- **prebuild:** Install Redux and React-Redux before the build process to ensure necessary dependencies are present.
+- **preview:** Preview the client using Vite, providing a local environment to review the application before deployment.
+- **test:** Run Vitest for testing, executing the test suite to ensure the reliability of the client-side code.
+
+#### Dependencies
+- **@apollo/client:** ^3.7.15
+    - Client library for interacting with a GraphQL server, facilitating queries and mutations.
+
+- **@stripe/stripe-js:** ^1.54.0
+    - JavaScript library for interacting with the Stripe API, enabling secure payment processing.
+
+- **@testing-library/react:** ^14.0.0
+    - Testing utilities for React applications, aiding in the creation of robust and reliable tests.
+
+- **graphql:** ^16.6.0
+    - Query language and runtime for APIs, commonly used with Apollo Client for GraphQL.
+
+- **happy-dom:** ^9.20.3
+    - Library for creating a simulated DOM environment, useful for testing purposes.
+
+- **jwt-decode:** ^3.1.2
+    - Library for decoding JSON Web Tokens (JWT) on the client side, useful for authentication.
+
+- **react:** ^18.2.0
+    - JavaScript library for building user interfaces and managing application state.
+
+- **react-dom:** ^18.2.0
+    - Entry point for the React DOM library, enabling rendering React components in the browser.
+
+- **react-router-dom:** ^6.11.2
+    - Library for adding routing functionality to React applications.
+
+- **vitest:** ^0.32.0
+    - Testing framework for Vite, offering features for efficient client-side testing.
+
+- **redux:** ^4.1.2
+    - Predictable state container for JavaScript applications, used for efficient state management.
+
+- **react-redux:** ^7.2.5
+    - Official React bindings for Redux, facilitating the integration of Redux with React components.
+
+#### Dev Dependencies
+- **@types/react:** ^18.0.37
+    - Type definitions for React, enhancing development with type information and autocompletion.
+
+- **@types/react-dom:** ^18.0.11
+    - Type definitions for React DOM, providing type information for React DOM-specific features.
+
+- **@vitejs/plugin-react:** ^4.0.0
+    - Vite plugin enabling React support, particularly useful for fast development with features like hot module replacement.
+
+- **eslint:** ^8.38.0
+    - Tool for identifying and fixing problems in JavaScript code, ensuring code quality and consistency.
+
+- **eslint-plugin-react:** ^7.32.2
+    - ESLint plugin for React, providing rules and configurations for best practices.
+
+- **eslint-plugin-react-hooks:** ^4.6.0
+    - ESLint plugin enforcing rules related to React Hooks usage.
+
+- **eslint-plugin-react-refresh:** ^0.3.4
+    - ESLint plugin related to React Refresh, providing rules for faster development.
+
+- **vite:** ^4.3.9
+    - Fast build tool for modern web development, particularly effective for React projects with features like lightning-fast hot module replacement.
+
+The carefully chosen packages and dependencies in each section contribute to creating a robust, responsive, and feature-rich UpgradeCart application, ensuring a smooth experience for both developers and end-users alike.
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
 
 ## Installation
 
