@@ -229,7 +229,95 @@ The carefully chosen packages and dependencies in each section contribute to cre
 
 ## Installation
 
-Explain how to install and set up your project. Include any prerequisites and step-by-step instructions.
+### Prerequisites:
+
+Before starting, make sure to have the following installed on the local system:
+
+- **Node.js:** UpgradeCart relies on `Node.js` for its server and client-side development. You can download [here](https://nodejs.org/en).
+
+- **npm:** This is the package manager for Node.js. It comes bundled with Node.js, so no need to install it separately.
+
+### Step-by-Step Instructions:
+
+Follow these step-by-step instructions to set up UpgradeCart on your local machine:
+
+1. **Clone the Repository:**
+
+   Open your terminal and run the following command to clone the UpgradeCart repository:
+
+   ```
+   git clone git@github.com:Clkwong3/UpgradeCart.git
+   ```
+
+2. **Navigate to the Root Directory:**
+
+   ```
+   cd Upgradecart
+   ```
+
+3. **Install Dependencies:**
+
+- In the root directory, install the all the dependencies including the server and client by using the terminal:
+
+  ```
+  npm install
+  ```
+
+4. **Seed Data (Optional):**
+
+- To include the seed data from the server, run the following command:
+
+  ```
+  npm run seed
+  ```
+
+  This command populates the server's database with initial information.
+
+5. **Build the Client:**
+
+   ```
+   npm run build
+   ```
+
+   This command compiles the client-side code and prepares it for deployment.
+
+6. **Configuration and Environment Variables:**
+
+   1. **Server Configuration:**
+
+   - Navigate to the server directory:
+     ```
+     cd server
+     ```
+   - **Environment Variables:** Create a `.env` file in the `server` directory and add necessary environment variables. These variables may include database connection details, API keys, or any other sensitive information.
+
+   - **Additional Configurations:** Check for any other configuration files specific to the server setup. These might include database connection files, GraphQL schema definitions, or any custom configurations.
+
+   2. **Client Configuration:**
+
+   - Navigate to the client directory:
+     ```
+     cd client
+     ```
+   - **Environment Variables:** Some client-side configurations may require environment variables. If so, create a `.env` file in the `client` directory and add the necessary variables.
+
+   - **Additional Configurations:** Check for any specific configurations in the client-side code, such as API endpoints or authentication configurations.
+
+   Remember to update the .env files with appropriate values for your specific setup.
+
+7. **Running the Application:**
+
+- After setting up configurations:
+
+  ```
+  npm run develop
+  ```
+
+  This will start both the server and the client, making UpgradeCart accessible.
+
+  Visit `http://localhost:your-port-number` in the web browser, replacing your-port-number with the specified port number from the server configuration.
+
+That's it! You've successfully installed and set up UpgradeCart on your system.
 
 ## Usage
 
