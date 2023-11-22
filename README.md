@@ -1,9 +1,11 @@
 # UpgradeCart
 
 ## Overview
+
 UpgradeCart is a dynamic e-commerce web application engineered to elevate the online shopping journey for users. The platform stands out with its adoption of Redux, a powerful state management tool, to arrange seamless and responsive global state changes. UpgradeCart offers an array of features, including intuitive product browsing, detailed product views, user authentication, and a robust shopping cart system.
 
 ### Key Features
+
 - **Efficient State Management:** UpgradeCart uses the power of Redux for efficient global state management, ensuring a smooth and responsive user interface.
 
 - **Product Exploration:** Users can effortlessly explore a diverse range of products, complete with detailed information and captivating visuals to aid their decision-making process.
@@ -15,6 +17,7 @@ UpgradeCart is a dynamic e-commerce web application engineered to elevate the on
 - **Streamlined Order Processing:** UpgradeCart prioritizes a streamlined order processing system, promising a hassle-free checkout experience with secure transaction handling and instant order confirmation.
 
 ### Purpose
+
 UpgradeCart is crafted with the purpose of offering an enhanced and user-friendly e-commerce solution. By adopting Redux for state management, the platform ensures a responsive and dynamic shopping experience. The objective is to simplify the intricacies of online shopping, providing users with a seamless interface to browse, select, and purchase products confidently. Elevate your online shopping experience with UpgradeCart.
 
 ## Table of Contents
@@ -49,7 +52,19 @@ In summary, UpgradeCart is designed to revolutionize online shopping by addressi
 
 ## Tools
 
-Provide a list of tools needed to interact with your project effectively.
+To interact effectively with UpgradeCart, users will need the following tools:
+
+1. **Web Browser:** UpgradeCart is a web-based application, and a modern web browser such as Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge is recommended for optimal performance.
+
+2. **Internet Connection:** A stable and reliable internet connection is essential to access and use UpgradeCart seamlessly.
+
+3. **Device:** UpgradeCart is designed to be responsive and accessible across various devices, including desktops, laptops, tablets, and smartphones. Users can choose the device that suits their preferences.
+
+4. **Redux DevTools Extension (Optional):** For users who want to explore and debug the global state management implemented with Redux, installing the Redux DevTools extension for their web browser can be beneficial.
+
+These tools are the key components required to interact with UpgradeCart effectively and make the most out of its features.
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
 
 ## Technology Stack
 
