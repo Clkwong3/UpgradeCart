@@ -333,7 +333,7 @@ Include any relevant links, such as the project's website, documentation, or liv
 
 ## Credits
 
-Acknowledge any contributors, libraries, or resources you used in your project.
+This project was developed by [Clarice Kwong](https://github.com/Clkwong3).
 
 ## Contributing
 
