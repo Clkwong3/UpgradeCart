@@ -1,12 +1,12 @@
 // Define a user schema using Mongoose Schema
-const { Schema } = require("mongoose");
+const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 
 // Import the Order schema
 const Order = require("./Order");
 
 // Define the user schema with various fields
-const userSchema = new Schema({
+const userSchema = new mongoose.Schema({
   // First name of the user
   firstName: {
     type: String,
@@ -58,5 +58,5 @@ userSchema.methods.isCorrectPassword = async function (password) {
 // Create a Mongoose model named 'User' using the userSchema
 const User = mongoose.model("User", userSchema);
 
-// Export the User model for use in other files
+// Export the User model
 module.exports = User;

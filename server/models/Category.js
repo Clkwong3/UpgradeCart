@@ -1,8 +1,8 @@
 // Define a user schema using Mongoose Schema
-const { Schema } = require("mongoose");
+const mongoose = require("mongoose");
 
 // Define the category schema
-const categorySchema = new Schema({
+const categorySchema = new mongoose.Schema({
   // Name of the category
   name: {
     type: String,
@@ -14,5 +14,5 @@ const categorySchema = new Schema({
 // Create a Mongoose model named 'Category' using the categorySchema
 const Category = mongoose.model('Category', categorySchema);
 
-// Export the Category model for use in other files
+// Export the Category model 
 module.exports = Category;
