@@ -32,7 +32,7 @@ db.once("open", async () => {
       category: categories[0]._id,
       description:
         "Experience the essence of eternity in every sip with our Timeless Brew.",
-      image: "timeless-brew.jpg",
+      image: "canned-coffee.jpg",
       price: 12.99,
       quantity: 300,
     },
@@ -41,7 +41,7 @@ db.once("open", async () => {
       category: categories[1]._id,
       description:
         "Indulge in the luxurious comfort of 'Plush Purity' toilet paper. Soft, strong, and crafted for your satisfaction. Elevate your bathroom experience with every roll.",
-      image: "plush-purity.jpg",
+      image: "toilet-paper.jpg",
       price: 7.99,
       quantity: 20,
     },
@@ -59,7 +59,7 @@ db.once("open", async () => {
       category: categories[1]._id,
       description:
         "Achieve culinary favored with our 'Chef's Favored Spoons.' Crafted for every kitchen maestro, these spoons bring simplicity and elegance to your cooking experience.",
-      image: "favored-spoons.jpg",
+      image: "wooden-spoons.jpg",
       price: 14.99,
       quantity: 100,
     },
@@ -68,7 +68,7 @@ db.once("open", async () => {
       category: categories[2]._id,
       description:
         "Unleash your photography skills with 'Snap Master,' a camera designed to capture every moment effortlessly.",
-      image: "snap-master.jpg",
+      image: "camera.jpg",
       price: 399.99,
       quantity: 30,
     },
