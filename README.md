@@ -222,8 +222,26 @@ If you'd like to contribute to the project with code or other contributions, we 
 
 ## Report Issue
 
-If you'd like to report an issue or contribute to the project, provide instructions for how others can do so.
+If you encounter any issues in the project, here's how you can get involved:
 
-## License
+**Reporting Issues**
 
-Specify the project's license, if applicable.
+1. **GitHub Issues:** Visit the project's [GitHub Issues](https://github.com/Clkwong3/UpgradeCart/issues) page.
+
+2. **Search for Existing Issues:** Before creating a new issue, please search for existing ones to check if your concern has already been addressed.
+
+3. **Create a New Issue:** If your issue isn't already listed, click on the "New Issue" button.
+
+4. **Issue Title:** Use a descriptive and concise title that summarizes the problem.
+
+5. **Issue Description:** In the issue description, provide the following details:
+
+   - A clear and detailed explanation of the issue.
+   - Steps to reproduce the problem if applicable.
+   - Information about your environment, such as your operating system and any relevant software versions.
+
+6. **Screenshots or Error Messages:** If you have visual aids, such as screenshots or error messages, please attach them to the issue.
+
+7. **Labeling:** If you're familiar with labels or the issue tracking system on GitHub, you can add labels that best describe the issue. If not, don't worry; we'll handle that.
+
+8. **Submit the Issue:** Click "Submit new issue," and the project creator will review it. We'll get back to you as soon as possible.
