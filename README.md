@@ -73,6 +73,7 @@ UpgradeCart relies on a comprehensive set of tools to ensure efficient developme
 ### Root Package.json
 
 #### Project Commands/Scripts
+
 - **start:** Initiates the server using `node server/server.js`, excluding the client.
 - **develop:** Concurrently runs server and client development environments for a streamlined development experience.
 - **install:** Installs server and client dependencies to ensure a smooth integration of required packages.
@@ -87,42 +88,52 @@ UpgradeCart relies on a comprehensive set of tools to ensure efficient developme
 ### Server Package.json
 
 #### Project Commands/Scripts
+
 - **start** Initiates the server using `node server.js`, launching the application.
 - **watch:** Operates the server using `nodemon` for automatic restarts during development.
 - **seed:** Seeds data into the server using `node config/seeds.js`, populating the database with initial information.
 
 #### Dependencies
+
 - **@apollo/server:** ^4.9.5
-    - Implements a GraphQL server for defining schemas and resolving queries. Used for server-side testing.
+
+  - Implements a GraphQL server for defining schemas and resolving queries. Used for server-side testing.
 
 - **bcrypt:** ^5.0.0
-    - Library for hashing passwords, commonly used for secure password storage.
+
+  - Library for hashing passwords, commonly used for secure password storage.
 
 - **dotenv:** ^16.3.1
-    - Loads environment variables from a .env file into process.env, aiding in configuration management during development.
+
+  - Loads environment variables from a .env file into process.env, aiding in configuration management during development.
 
 - **express:** ^4.17.2
-    - Fast and minimalist web framework for Node.js, simplifying building robust web applications.
+
+  - Fast and minimalist web framework for Node.js, simplifying building robust web applications.
 
 - **graphql:** ^16.6.0
-    -Query language and runtime for APIs, often used with Apollo Server for GraphQL.
+  -Query language and runtime for APIs, often used with Apollo Server for GraphQL.
 
 - **jsonwebtoken:** ^9.0.2
-    - Generates and verifies JSON Web Tokens (JWT) for user authentication and authorization.
+
+  - Generates and verifies JSON Web Tokens (JWT) for user authentication and authorization.
 
 - **mongoose:** ^7.0.2
-    - Object Data Modeling (ODM) library for MongoDB and Node.js, providing schema-based data modeling.
+
+  - Object Data Modeling (ODM) library for MongoDB and Node.js, providing schema-based data modeling.
 
 - **stripe:** ^8.67.0
-    - Library for interacting with the Stripe API, enabling secure payment processing.
+  - Library for interacting with the Stripe API, enabling secure payment processing.
 
 #### Dev Dependencies
+
 - **nodemon:** ^2.0.3
   - Utility that monitors changes in Node.js applications and automatically restarts the server during development.
 
 ### Client Package.json
 
 #### Project Commands/Scripts
+
 - **dev:** Run Vite for development, initiating the development server for a smooth and fast-paced development experience.
 - **build:** Build the client using Vite, generating a production-ready bundle for deployment.
 - **lint:** Run ESLint for linting, ensuring code quality and adherence to coding standards in the source code.
@@ -131,66 +142,86 @@ UpgradeCart relies on a comprehensive set of tools to ensure efficient developme
 - **test:** Run Vitest for testing, executing the test suite to ensure the reliability of the client-side code.
 
 #### Dependencies
+
 - **@apollo/client:** ^3.7.15
-    - Client library for interacting with a GraphQL server, facilitating queries and mutations.
+
+  - Client library for interacting with a GraphQL server, facilitating queries and mutations.
 
 - **@stripe/stripe-js:** ^1.54.0
-    - JavaScript library for interacting with the Stripe API, enabling secure payment processing.
+
+  - JavaScript library for interacting with the Stripe API, enabling secure payment processing.
 
 - **@testing-library/react:** ^14.0.0
-    - Testing utilities for React applications, aiding in the creation of robust and reliable tests.
+
+  - Testing utilities for React applications, aiding in the creation of robust and reliable tests.
 
 - **graphql:** ^16.6.0
-    - Query language and runtime for APIs, commonly used with Apollo Client for GraphQL.
+
+  - Query language and runtime for APIs, commonly used with Apollo Client for GraphQL.
 
 - **happy-dom:** ^9.20.3
-    - Library for creating a simulated DOM environment, useful for testing purposes.
+
+  - Library for creating a simulated DOM environment, useful for testing purposes.
 
 - **jwt-decode:** ^3.1.2
-    - Library for decoding JSON Web Tokens (JWT) on the client side, useful for authentication.
+
+  - Library for decoding JSON Web Tokens (JWT) on the client side, useful for authentication.
 
 - **react:** ^18.2.0
-    - JavaScript library for building user interfaces and managing application state.
+
+  - JavaScript library for building user interfaces and managing application state.
 
 - **react-dom:** ^18.2.0
-    - Entry point for the React DOM library, enabling rendering React components in the browser.
+
+  - Entry point for the React DOM library, enabling rendering React components in the browser.
 
 - **react-router-dom:** ^6.11.2
-    - Library for adding routing functionality to React applications.
+
+  - Library for adding routing functionality to React applications.
 
 - **vitest:** ^0.32.0
-    - Testing framework for Vite, offering features for efficient client-side testing.
+
+  - Testing framework for Vite, offering features for efficient client-side testing.
 
 - **redux:** ^4.1.2
-    - Predictable state container for JavaScript applications, used for efficient state management.
+
+  - Predictable state container for JavaScript applications, used for efficient state management.
 
 - **react-redux:** ^7.2.5
-    - Official React bindings for Redux, facilitating the integration of Redux with React components.
+  - Official React bindings for Redux, facilitating the integration of Redux with React components.
 
 #### Dev Dependencies
+
 - **@types/react:** ^18.0.37
-    - Type definitions for React, enhancing development with type information and autocompletion.
+
+  - Type definitions for React, enhancing development with type information and autocompletion.
 
 - **@types/react-dom:** ^18.0.11
-    - Type definitions for React DOM, providing type information for React DOM-specific features.
+
+  - Type definitions for React DOM, providing type information for React DOM-specific features.
 
 - **@vitejs/plugin-react:** ^4.0.0
-    - Vite plugin enabling React support, particularly useful for fast development with features like hot module replacement.
+
+  - Vite plugin enabling React support, particularly useful for fast development with features like hot module replacement.
 
 - **eslint:** ^8.38.0
-    - Tool for identifying and fixing problems in JavaScript code, ensuring code quality and consistency.
+
+  - Tool for identifying and fixing problems in JavaScript code, ensuring code quality and consistency.
 
 - **eslint-plugin-react:** ^7.32.2
-    - ESLint plugin for React, providing rules and configurations for best practices.
+
+  - ESLint plugin for React, providing rules and configurations for best practices.
 
 - **eslint-plugin-react-hooks:** ^4.6.0
-    - ESLint plugin enforcing rules related to React Hooks usage.
+
+  - ESLint plugin enforcing rules related to React Hooks usage.
 
 - **eslint-plugin-react-refresh:** ^0.3.4
-    - ESLint plugin related to React Refresh, providing rules for faster development.
+
+  - ESLint plugin related to React Refresh, providing rules for faster development.
 
 - **vite:** ^4.3.9
-    - Fast build tool for modern web development, particularly effective for React projects with features like lightning-fast hot module replacement.
+  - Fast build tool for modern web development, particularly effective for React projects with features like lightning-fast hot module replacement.
 
 The carefully chosen packages and dependencies in each section contribute to creating a robust, responsive, and feature-rich UpgradeCart application, ensuring a smooth experience for both developers and end-users alike.
 
@@ -218,7 +249,49 @@ Acknowledge any contributors, libraries, or resources you used in your project.
 
 ## Contributing
 
-If you'd like to contribute to the project with code or other contributions, we welcome your participation. Provide instructions for how others can do so.
+If you'd like to contribute to the project with code or other contributions, here's how you can get started:
+
+1. **Fork the Repository:** Start by forking the project's repository to your GitHub account.
+
+2. **Clone the Repository:** Clone your forked repository to your local development environment.
+
+   ```
+   git clone git@github.com:Clkwong3/UpgradeCart.git
+   ```
+
+3. **Create a New Branch:** Create a new branch for your contribution.
+
+   ```
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Changes:** Make your desired changes or contributions.
+
+5. **Test Your Changes:** Ensure that your changes do not introduce any new issues and pass all existing tests.
+
+6. **Commit Your Changes:** Commit your changes with a clear and concise commit message.
+
+   ```
+   git commit -m "Add feature: your feature description"
+   ```
+
+7. **Push to Your Repository:** Push your changes to your forked repository.
+
+   ```
+   git push origin feature/your-feature-name
+   ```
+
+8. **Create a Pull Request:** Go to the project's [Pull Requests](https://github.com/Clkwong3/UpgradeCart/pulls) page, and click on "New Pull Request."
+
+9. **Select the Base Branch:** Choose the appropriate base branch, typically the main branch of the project.
+
+10. **Review and Submit:** Review your changes, provide a clear description of your contribution, and submit the pull request.
+
+The project creator will review your pull request and provide feedback.
+
+Thank you for your interest in contributing to the project!
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
 
 ## Report Issue
 
@@ -245,3 +318,5 @@ If you encounter any issues in the project, here's how you can get involved:
 7. **Labeling:** If you're familiar with labels or the issue tracking system on GitHub, you can add labels that best describe the issue. If not, don't worry; we'll handle that.
 
 8. **Submit the Issue:** Click "Submit new issue," and the project creator will review it. We'll get back to you as soon as possible.
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
