@@ -424,7 +424,19 @@ This will execute the client-side tests and display the test results.
 
 ## Links
 
-Include any relevant links, such as the project's website, documentation, or live demo.
+Some sites that I found really helpful while working on this project:
+
+- [What is Redux?](https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/)
+- [How does Redux Work?](https://medium.com/swlh/what-is-redux-b16b42b33820)
+- [Redux Tutorials](https://redux.js.org/tutorials/index) 
+- [Redux Examples](https://blog.logrocket.com/understanding-redux-tutorial-examples/)
+
+### Live Demo
+- [Heroku Deployment](https://pure-peak-08923-cf295f9d0a3a.herokuapp.com/)
+
+Feel free to use these resources to enhance your understanding of Redux!
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
 
 ## Credits
 
