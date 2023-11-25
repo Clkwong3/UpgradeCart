@@ -323,7 +323,51 @@ That's it! You've successfully installed and set up UpgradeCart on your system.
 
 ## Usage
 
-Provide usage instructions and examples. How can someone use your project? Include code samples if necessary.
+UpgradeCart provides a user-friendly interface for seamless shopping. Visit the application in your web browser (usually http://localhost:3000) to explore and interact with the following features:
+
+- Browse categories and products.
+
+  **Home Page:**
+
+  ![Homepage to Shop Shop](./assets/front-end/home-sneak-peak.png)
+
+- Add products to your cart.
+
+  **Add to Cart Button:**
+  
+  ![Add to cart button](./assets/front-end/add-to-cart-btn.png)
+
+- View and edit your cart.
+
+  **Check cart by clicking on the icon:**
+
+  ![Cart location](./assets/front-end/cart-icon.png)
+
+  **Add to Cart Display:**
+
+  ![Add to cart display](./assets/front-end/add-to-cart-display.png)
+
+- Proceed to checkout and make a payment using the integrated Stripe functionality.
+
+  **Sign Up to checkout:**
+
+  ![Sign Up Button](./assets/front-end/signup-location.png)
+
+  **Sign Up Page:**
+
+  ![Sign Up Page](./assets/front-end/signup-page.png)
+
+  **Login to checkout:**
+
+  ![Login Button](./assets/front-end/login-location.png)
+
+  **Login Page:**
+
+  ![Login Page](./assets/front-end/login-page.png)
+
+  **Checkout Page:**
+
+  ![Checkout Page](./assets/front-end/checkout-stripe.png)
 
 ## Testing
 
@@ -375,6 +419,8 @@ This will execute the client-side tests and display the test results.
 
 **Vitest in Terminal Success:**
 ![Terminal Test](./assets/back-end/vitest-success.png)
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
 
 ## Links
 
