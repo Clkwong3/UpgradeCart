@@ -319,13 +319,62 @@ Follow these step-by-step instructions to set up UpgradeCart on your local machi
 
 That's it! You've successfully installed and set up UpgradeCart on your system.
 
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
+
 ## Usage
 
 Provide usage instructions and examples. How can someone use your project? Include code samples if necessary.
 
 ## Testing
 
-Explain how to run tests or provide information on the testing process for your project.
+### Server-Side Testing
+
+The server-side of UpgradeCart is thoroughly tested using Apollo Server. To run the server-side tests, follow the steps below:
+
+1. Navigate to the `server` directory:
+
+   ```
+   cd server
+   ```
+
+2. Run the server tests using the following command:
+   ```
+   npm start
+   ```
+
+This will execute the server-side tests and provide feedback on the test results.
+
+**Click on the the link provided:**
+![Link to graphql sandbox](./assets/back-end/link-graphql.png)
+
+**Opening Page:**
+![Apollo Server](./assets/back-end/opening-page.png)
+
+**Queries:**
+![Queries Tabs](./assets/back-end/queries.png)
+
+**Mutations:**
+![Mutations Tabs](./assets/back-end/mutations.png)
+
+### Client-side Testing
+
+The client-side of UpgradeCart is tested using Vitest along with Jest. The tests include comprehensive coverage for reducer functions handling various actions in the client state. To run the client-side tests, follow these steps:
+
+1. Navigate to the `client` directory:
+
+   ```
+   cd client
+   ```
+
+2. Run the client test using the following command:
+   ```
+   npm test
+   ```
+
+This will execute the client-side tests and display the test results.
+
+**Vitest in Terminal Success:**
+![Terminal Test](./assets/back-end/vitest-success.png)
 
 ## Links
 
@@ -334,6 +383,8 @@ Include any relevant links, such as the project's website, documentation, or liv
 ## Credits
 
 This project was developed by [Clarice Kwong](https://github.com/Clkwong3).
+
+[Top](#upgradecart) | [Table of Contents](#table-of-contents)
 
 ## Contributing
 
