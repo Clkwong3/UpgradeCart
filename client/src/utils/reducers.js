@@ -21,7 +21,7 @@ const initialState = {
 };
 
 // Define the reducer function that handles state updates
-export const reducer = (state = initialState, action) => {
+export const reducers = (state = initialState, action) => {
   // Switch statement to handle different action types
   switch (action.type) {
     case UPDATE_PRODUCTS:
